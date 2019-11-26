@@ -40,7 +40,10 @@ h6 {
 }
 
 .page-section h2.section-heading {
-  font-size: 40px;
+  color: #023753;	
+  font-family: Archivo;	
+  font-size: 28px;	
+  line-height: 40px;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -52,6 +55,27 @@ h6 {
   margin-bottom: 75px;
   text-transform: none;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.page-section span.section-short {
+  color: #2A51E5;	
+  font-family: Archivo;	
+  font-size: 12px;	
+  letter-spacing: 2px;	
+  line-height: 24px;
+  background-color: #FFFFFF;	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
+}
+
+.page-section div.service-background-panel {
+  background-color: #F5F9FC; 
+  height: 100px; 
+  margin-top: -70px;
+}
+
+.page-section img.service-background-img {
+  height: 112px;	
+  width: 135px; 
+  margin: 10px 100px 0px 10px
 }
 
 @media (min-width: 768px) {
