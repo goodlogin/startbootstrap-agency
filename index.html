@@ -5,10 +5,17 @@
 + header
 + footer (dont need linkedin and upwork link)
 + The language we speak section
-- The language we build section
-- Technologies section
-- Portfolio section
-- What customers says
++ The language we build section
++ Technologies section
++ Portfolio section
++ What customers says
+
+margis +
+header +
+popup +
+email +
+background +
+
 - NEW Team(items + linked), [Optional]
 - Estimate -->
 
@@ -26,7 +33,9 @@
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Archivo:400,700" rel="stylesheet" type="text/css">
+  <!--<link href="https://fonts.googleapis.com/css?family=Archivo:400,700" rel="stylesheet" type="text/css">-->
+  <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet">
+  
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -60,13 +69,13 @@
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="#languigesbuild">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            <a class="nav-link js-scroll-trigger" href="#customers">Feedback</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#getstarted">Contact</a>
           </li>
         </ul>
       </div>
@@ -118,7 +127,7 @@
   <div class="card-seperator"></div>
 
   <!--languigesbuild-->
-  <section class="page-section " id="languigesbuild">
+  <section class="page-section" id="languigesbuild">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -131,12 +140,12 @@
   <section class="page-section expertize">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-4">
           <span class="section-short">Key tech expertise</span>
           <h2 class="expertise-text expertise-header col-lg-12">.NET</h2>
           <h2 class="expertise-text col-lg-12">Our .NET engineers build highly robust solutions based on latest Microsoft technologies</h2>
         </div>
-        <div class="col-lg-8">
+        <div class="col-lg-8 col-sm-8">
           <div class="tech-images">
             <div class="tech-image-container tech-img-1"><img src="img/tech/1.png"></div>
             <div class="tech-image-container tech-img-2"><img src="img/tech/2.png"></div>
@@ -149,10 +158,127 @@
       </div>
     </div>
   </section>
-
+  <section class="page-section bg-light languigesbuild-section-pading" id="languigesbuild">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <h2 class="languigesbuild-text languigesbuild-header">Full technology alphabet</h2>
+          <h2 class="languigesbuild-text">Our .NET engineers build highly robust solutions based on latest.</h2>
+        </div>
+        <div class="col-lg-1 col-sm-1">
+        </div>
+        <div class="col-lg-2 col-sm-4">
+          <h2 class="languigesbuild-list-text languigesbuild-list-header">/Backend</h2>
+          <ul class="languigesbuild-list languigesbuild-list-text">
+            <li><span class="languigesbuild-list-item">Android</span></li>
+            <li><span class="languigesbuild-list-item">Android</span></li>
+            <li><span class="languigesbuild-list-item">Android</span></li>
+            <li><span class="languigesbuild-list-item">Android</span></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-4">
+            <h2 class="languigesbuild-list-text languigesbuild-list-header">/Frontend</h2>
+            <ul class="languigesbuild-list languigesbuild-list-text">
+              <li><span class="languigesbuild-list-item">Android</span></li>
+              <li><span class="languigesbuild-list-item">Android</span></li>
+              <li><span class="languigesbuild-list-item">Android</span></li>
+              <li><span class="languigesbuild-list-item">Android</span></li>
+              <li><span class="languigesbuild-list-item">Android</span></li>
+            </ul>
+        </div>
+        <div class="col-lg-2 col-sm-3">
+            <h2 class="languigesbuild-list-text languigesbuild-list-header">/Mobile</h2>
+            <ul class="languigesbuild-list languigesbuild-list-text">
+              <li><span class="languigesbuild-list-item">Android</span></li>
+              <li><span class="languigesbuild-list-item">Android</span></li>
+              <li><span class="languigesbuild-list-item">Android</span></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </section>
   
+  <!--portfolio-->
+  <section class="page-section bg-light portfolio-bg" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <span class="section-short">What We've Created</span>
+          <h2 class="section-heading">All projects go through creativly golden strategy process</h2>
+        </div>
+        <div class="col-lg-12">
+          <div class="bg-light row portfolio-bottom">
+            <div class="col-1"></div>
+            <div class="col-lg-5 col-md-5">
+              <h2 class="portfolio-header">Sports club management system</h2>
+              <a data-toggle="modal" href="#ViewProjectModal">
+                <div class="portfolio-reference">View Project<img src="img/arrow.png"></div>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6"></div>
+            <div class="col-lg-5 col-md-5 portfolio-phones">
+              <img class="portfolio-phone1" src="img/phone.png">
+              <img class="portfolio-phone2" src="img/phone.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--What customer says-->
+  <section class="page-section bg-gradient" id="customers">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1">
+          <img src="img/white-arrow-left.png">
+        </div>
+        <div class="col-md-10 customers-text">
+          <div>What our customers say about us</div>
+          <div class="customers-main">“ We’ve had a great time working with creatively. It's a zipped part of our own team to be honest. It's been a very productive and efficient relationship so far.”</div>
+          <div class="customers-name">Genevieve Rodriquez</div>
+          <div>Product designer</div>
+        </div>
+        <div class="col-md-1">
+            <img src="img/white-arrow-right.png">
+        </div>
+      </div>
+      <div class="row customers-items">
+        <div class="customer-item-selected"></div>
+        <div class="customer-item"></div>
+        <div class="customer-item"></div>
+      </div>
+    </div>
+  </section>
+
+  <!--ready to get started-->
+  <section class="page-section" id="getstarted">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">Ready to get started together?</h2>
+          <h2 class="getstarted-text">Let us know more and we`ll sent you an estimate.</h2>  
+        </div>
+        <div class="col-lg-3 col-md-4 getstarted-button-container">
+          <a href="mailto:email@email.email">
+            <div class="getstarted-button">
+                Estimate project<img src="img/white-arrow-right.png">
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="card-seperator"></div>
+
+
+
   <!-- Portfolio Grid -->
-  <section class="bg-light page-section" id="portfolio">
+  <!--<section class="page-section" id="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -247,10 +373,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
 
   <!-- About -->
-  <section class="page-section" id="about">
+  <!--<section class="page-section" id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -328,10 +454,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
 
   <!-- Team -->
-  <section class="bg-light page-section" id="team">
+  <!--<section class="bg-light page-section" id="team">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -419,10 +545,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
 
   <!-- Clients -->
-  <section class="py-5">
+  <!--<section class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-md-3 col-sm-6">
@@ -447,10 +573,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
 
   <!-- Contact -->
-  <section class="page-section" id="contact">
+  <!--<section class="page-section" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -492,7 +618,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
 
   <!-- Footer -->
   <footer class="footer">
@@ -525,6 +651,37 @@
   </footer>
 
   <!-- Portfolio Modals -->
+
+<div class="portfolio-modal modal fade" id="ViewProjectModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Sports club management system</h2>
+                <!--<img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">-->
+                <div class="portfolio-phones-modal">
+                  <img class="portfolio-phone1-modal" src="img/phone.png">
+                  <img class="portfolio-phone2-modal" src="img/phone.png">
+                </div>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Modal 1 -->
   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">

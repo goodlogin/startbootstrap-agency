@@ -44,8 +44,14 @@ h6 {
   font-family: Archivo;	
   font-size: 28px;	
   line-height: 40px;
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 15px;
+}
+@media (max-width: 576px){
+  .page-section h2.section-heading {
+    font-size: 20px;	
+    line-height: 28px;
+  }
 }
 
 .page-section h3.section-subheading {
@@ -198,13 +204,13 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg-az.png");
+  background-image: url("../img/header-bg-az.png"), linear-gradient(135deg, #1D3EE0 0%, #4C9DFF 100%);
   background-color: #1D3EE0;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  background: linear-gradient(135deg, #1D3EE0 0%, #4C9DFF 100%);
+  /*background: linear-gradient(135deg, #1D3EE0 0%, #4C9DFF 100%);*/
 }
 
 header.masthead .intro-text {
@@ -746,19 +752,20 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   width: 100%;
   height: 1px;
   opacity: 25%;
-  background-color: #D8D8D8;
-  border: solid 1px #979797;
+  background-color: #979797;
 }
-
+#languigesbuild h2{
+  padding: 0;
+}
 .expertize{
   color: white;
-  background-image: url("../img/header-bg-az.png");
+  background-image: url("../img/header-bg-az.png"), linear-gradient(135deg, #1D3EE0 0%, #4C9DFF 100%);
   background-color: #1D3EE0;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  background: linear-gradient(135deg, #1D3EE0 0%, #4C9DFF 100%);
+  /*background: linear-gradient(135deg, #1D3EE0 0%, #4C9DFF 100%);*/
   height: 470px;
   vertical-align: middle;
 }
@@ -770,6 +777,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   font-size: 18px;	
   line-height: 24px;
   text-align: left;
+  padding: 0;
 }
 
 .expertise-header{
@@ -777,6 +785,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   font-weight: bold;	
   letter-spacing: 2px;	
   line-height: 80px;
+  margin-top: 20px;
 }
 
 .expertize .container,
@@ -834,4 +843,334 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   padding: 21px;
   right: 12px;
   bottom: 75px;
+}
+@media (max-width: 768px) {
+  .tech-img-1{
+    width: 94px;
+    height: 95px;
+    padding: 6px 6px 7px 7px;
+    left: 104px;
+  }
+  .tech-img-2{
+    width: 107px;
+    height: 108px;
+    padding: 17px 13px 13px 13px;
+    top: 160px;
+  }
+  .tech-img-3{
+    width: 95px;
+    height: 95px;
+    padding: 10px 9px 10px 10px;
+    left: 75px;
+    bottom: 75px;
+  }
+  .tech-img-4{
+    width: 107px;
+    height: 106px;
+    padding: 8px 4px 8px 12px;
+    left: 200px;
+    top: 151px;
+  }
+  .tech-img-5{
+    width: 132px;
+    height: 132px;
+    padding: 28px 15px 28px 16px;
+    top: 0px;
+    right: 0px;
+  }
+  .tech-img-6{
+    width: 107px;
+    height: 108px;
+    padding: 21px;
+    right: 14px;
+    bottom: 75px;
+  }
+
+
+  .tech-image-container img{
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 425px){
+  .tech-images{
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 768px){
+  .languigesbuild-text{
+    text-align: center;
+  }
+  #languigesbuild .col-sm-4,
+  #languigesbuild .col-sm-3{
+    margin-top: 40px;
+  }
+}
+@media (max-width: 576px){
+  #languigesbuild .col-sm-4,
+  #languigesbuild .col-sm-3{
+    margin-left: 60px;
+  }
+}
+.languigesbuild-text{
+  color: #023753;	
+  font-family: 'Archivo';	
+  opacity: 0.8;	
+  color: #023753;	
+  font-size: 18px;	
+  line-height: 24px;
+  padding: 0;
+}
+.languigesbuild-header{
+  font-size: 28px;	
+  font-weight: bold;
+  line-height: 36px;
+}
+.languigesbuild-list-text{
+  opacity: 0.8;	
+  color: #003856;	
+  font-family: 'Archivo';	
+  font-size: 20px;	
+  line-height: 24px;
+}
+.languigesbuild-list-header{
+  font-size: 28px;	
+  line-height: 40px;
+  opacity: unset;
+}
+.languigesbuild-list{
+  padding-left: 24px;
+}
+.languigesbuild-list li{
+  list-style-image: url('../img/apple.png');
+  margin-bottom: 15px;
+}
+.languigesbuild-list-item{
+  vertical-align: super;
+}
+.portfolio-phones{
+  width: 100%;
+}
+.portfolio-phone1{
+  position: absolute;
+  width: 324px;
+  height: 375px;
+  right: 0;
+  bottom: 0;
+}
+.portfolio-phone2{
+  position: absolute;
+  width: 239px;
+  height: 278px;
+  right: 204px;
+  bottom: 0;
+}
+.portfolio-bottom{
+  padding-top: 93px;
+  padding-bottom: 93px;
+  margin-top: 75px;
+}
+@media (max-width: 768px){
+  .portfolio-phone1{
+    width: 210px;
+    height: 242px;
+    right: 0;
+    bottom: 0;
+  }
+  .portfolio-phone2{
+    width: 155px;
+    height: 179px;
+    right: 150px;
+    bottom: 0;
+  }
+}
+@media (max-width: 576px){
+  .portfolio-bottom{
+    padding-bottom: 270px;
+    padding-top: 40px;
+  }
+}
+.portfolio-header{
+  color: #003856;
+  font-family: 'Archivo';
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 38px;
+}
+.portfolio-reference{
+  color: #4690FA;	
+  font-family: 'Archivo';	
+  font-size: 16px;	
+  font-weight: bold;	
+  letter-spacing: 0.2px;	
+  line-height: 17px;
+}
+.portfolio-reference img{
+  margin-left: 10px;
+}
+@media(max-width: 576px){
+  .portfolio-header{
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .portfolio-reference{
+    font-size: 16px;
+    line-height: 17px;
+  }
+}
+
+.bg-gradient{
+  background-color: #1D3EE0;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  background: linear-gradient(135deg, #1D3EE0 0%, #4C9DFF 100%);
+}
+
+.customers-text{
+  color: #FFFFFF;	
+  font-family: 'Archivo';	
+  font-size: 14px;	
+  letter-spacing: 2.5px;	
+  line-height: 22px;
+  text-align: center;
+}
+.customers-main{
+  font-size: 28px;	
+  line-height: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.customers-name{
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+#customers .col-md-1{
+  align-self: center;
+}
+.customers-items{
+  visibility: hidden;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customer-item{
+  box-sizing: border-box;	
+  height: 7px;	
+  width: 7px;	
+  border: 1px solid #FFFFFF;
+  margin-left: 4px;
+}
+.customer-item-selected{
+  height: 8px;
+  width: 8px;
+  background-color: #FFFFFF;
+}
+@media(max-width: 576px){
+  #customers .col-md-1{
+    visibility: hidden;
+  }
+  .customers-items{
+    visibility: visible;
+  }
+}
+.getstarted-text{
+  opacity: 0.8;	
+  color: #003856;	
+  font-family: 'Archivo';	
+  font-size: 18px;	
+  line-height: 24px;
+}
+.getstarted-button{
+  width: 200px;
+  height: 60px;
+  color: #FFFFFF;	
+  font-family: 'Archivo';	
+  font-size: 16px;	
+  font-weight: bold;	
+  letter-spacing: 0.2px;	
+  line-height: 17px;
+  background-color: #1D3EE0;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  background: linear-gradient(135deg, #1D3EE0 0%, #4C9DFF 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.getstarted-button img{
+  margin-left: 13px;
+}
+.getstarted-button-container{
+  margin: auto;
+}
+@media(max-width: 576px){
+  #getstarted .container{
+    text-align: center;
+  }
+  .getstarted-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .getstarted-button{
+    margin-top: 40px;
+  }
+}
+
+.portfolio-phones-modal{
+  width: 100%;
+  height: 400px;
+}
+
+.portfolio-phone1-modal{
+  position: absolute;
+  width: 324px;
+  height: 375px;
+  right: 100px;
+  bottom: 50px;
+}
+.portfolio-phone2-modal{
+  position: absolute;
+  width: 239px;
+  height: 278px;
+  right: 304px;
+  bottom: 50px;
+}
+@media (max-width: 768px){
+  .portfolio-phone1-modal{
+    width: 210px;
+    height: 242px;
+    right: 0px;
+    bottom: 0px;
+  }
+  .portfolio-phone2-modal{
+    width: 155px;
+    height: 179px;
+    right: 150px;
+    bottom: 0px;
+  }
+}
+
+.languigesbuild-section-pading{
+  padding-bottom: 50px !important;
+}
+.portfolio-bg{
+  background-image: url(../img/languigesbuild-background1.png);
+}
+@media (max-width: 768px){
+  .portfolio-bg{
+    background-image: url(../img/languigesbuild-background2.png);
+  }
+}
+@media (max-width: 576px){
+  .portfolio-bg{
+    background-image: url(../img/languigesbuild-background3.png);
+  }
 }
