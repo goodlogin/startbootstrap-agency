@@ -762,29 +762,6 @@ section#contact :-ms-input-placeholder {
   padding: 5px 10px 5px 10px;
 }
 
-.footer-social-block{
-  margin-left: auto;
-}
-
-@media (max-width: 425px){
-  .footer-social-block{
-    margin-left: 15px;
-  }
-  .footer-mobile-margin{
-    margin-top: 20px;
-  }
-  .footer-footer{
-    text-align: center;
-  }
-}
-
-.footer-social-item{
-  height: 40px;	
-  width: 50px;	
-  border: 1px solid #D8D8D8;	
-  background-color: #FFFFFF;
-}
-
 ul.social-buttons {
   margin-bottom: 0;
 }
