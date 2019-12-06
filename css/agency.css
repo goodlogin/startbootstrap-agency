@@ -635,9 +635,14 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.team-description{
+  font-family: 'Archivo';
+}
+
 .team-member {
   margin-bottom: 50px;
   text-align: center;
+  font-family: 'Archivo';
 }
 
 .team-member img {
