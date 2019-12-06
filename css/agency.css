@@ -65,11 +65,12 @@ h6 {
 
 .page-section span.section-short {
   color: #2A51E5;	
-  font-family: Archivo;	
+  font-family: 'Archivo';	
   font-size: 12px;	
   letter-spacing: 2px;	
   line-height: 24px;
   background-color: #FFFFFF;	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
+  padding: 5px;
 }
 
 .page-section div.service-background-panel {
@@ -123,13 +124,13 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #1D3EE0;
+  border-color: #1D3EE0;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #4C9DFF !important;
+  border-color: #4C9DFF !important;
   color: white;
 }
 
@@ -202,7 +203,7 @@ img::-moz-selection {
 }
 
 header.masthead {
-  text-align: center;
+  text-align: left;
   color: white;
   background-image: url("../img/header-bg-az.png"), linear-gradient(135deg, #1D3EE0 0%, #4C9DFF 100%);
   background-color: #1D3EE0;
@@ -234,10 +235,17 @@ header.masthead .intro-text .intro-heading {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+@media (max-width: 425px){
+  header.masthead .intro-text {
+    padding-top: 215px;
+    padding-bottom: 215px;
+  }
+}
+
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 200px;
+    padding-bottom: 100px;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 35px;
@@ -257,8 +265,8 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 992px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 200px;
+    padding-bottom: 100px;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
@@ -358,8 +366,18 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-dialog {
-  margin: 1rem;
+  margin: 15%;
   max-width: 100vw;
+}
+@media (max-width: 767px) {
+  .portfolio-modal .modal-dialog {
+    margin: 5%;
+  }
+}
+@media (max-width: 425px) {
+  .portfolio-modal .modal-dialog {
+    margin: 1%;
+  }
 }
 
 .portfolio-modal .modal-content {
@@ -696,17 +714,18 @@ section#contact :-ms-input-placeholder {
 }
 
 .footer {
-  padding: 25px 0;
+  padding: 50px 0 25px 0;
   text-align: left;
 }
 
 .footer span.copyright {
-  font-size: 12px;
-  line-height: 14px;
   color: #023753;
   text-transform: none;
   font-weight: normal;
   font-family: 'Archivo';
+  font-size: 12px;	
+  letter-spacing: 1.5px;	
+  line-height: 14px;
 }
 
 .footer ul.quicklinks {
@@ -725,6 +744,40 @@ section#contact :-ms-input-placeholder {
   margin-bottom: 10px;
   font-weight: normal;
   font-family: 'Archivo';
+}
+
+.footer-item-block {
+  margin-bottom: 10px;
+}
+
+.footer-social-in{
+  padding: 5px 15px 5px 15px;
+}
+.footer-social-up{
+  padding: 5px 10px 5px 10px;
+}
+
+.footer-social-block{
+  margin-left: auto;
+}
+
+@media (max-width: 425px){
+  .footer-social-block{
+    margin-left: 15px;
+  }
+  .footer-mobile-margin{
+    margin-top: 20px;
+  }
+  .footer-footer{
+    text-align: center;
+  }
+}
+
+.footer-social-item{
+  height: 40px;	
+  width: 50px;	
+  border: 1px solid #D8D8D8;	
+  background-color: #FFFFFF;
 }
 
 ul.social-buttons {
@@ -768,6 +821,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   /*background: linear-gradient(135deg, #1D3EE0 0%, #4C9DFF 100%);*/
   height: 470px;
   vertical-align: middle;
+  padding-bottom: 50px;
 }
 
 .expertise-text{
@@ -786,11 +840,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   letter-spacing: 2px;	
   line-height: 80px;
   margin-top: 20px;
-}
-
-.expertize .container,
-.expertize .row {
-  height: 100%;
 }
 
 .tech-images{
@@ -845,6 +894,15 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   bottom: 75px;
 }
 @media (max-width: 768px) {
+  .tech-img-4{
+    width: 107px;
+    height: 106px;
+    padding: 8px 4px 8px 12px;
+    left: 200px;
+    top: 151px;
+  }
+}
+@media (max-width: 1200px) {
   .tech-img-1{
     width: 94px;
     height: 95px;
@@ -868,7 +926,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     width: 107px;
     height: 106px;
     padding: 8px 4px 8px 12px;
-    left: 200px;
+    right: 200px;
     top: 151px;
   }
   .tech-img-5{
@@ -892,7 +950,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     height: 100%;
   }
 }
-@media (max-width: 425px){
+@media (max-width: 767px){
   .tech-images{
     visibility: hidden;
   }
@@ -975,7 +1033,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   .portfolio-phone1{
     width: 210px;
     height: 242px;
-    right: 0;
+    right: 10px;
     bottom: 0;
   }
   .portfolio-phone2{
@@ -1124,45 +1182,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   }
 }
 
-.portfolio-phones-modal{
-  width: 100%;
-  height: 400px;
-}
-
-.portfolio-phone1-modal{
-  position: absolute;
-  width: 324px;
-  height: 375px;
-  right: 100px;
-  bottom: 50px;
-}
-.portfolio-phone2-modal{
-  position: absolute;
-  width: 239px;
-  height: 278px;
-  right: 304px;
-  bottom: 50px;
-}
-@media (max-width: 768px){
-  .portfolio-phone1-modal{
-    width: 210px;
-    height: 242px;
-    right: 0px;
-    bottom: 0px;
-  }
-  .portfolio-phone2-modal{
-    width: 155px;
-    height: 179px;
-    right: 150px;
-    bottom: 0px;
-  }
-}
 
 .languigesbuild-section-pading{
   padding-bottom: 50px !important;
 }
 .portfolio-bg{
   background-image: url(../img/languigesbuild-background1.png);
+  background-size: 100% 1000px;
 }
 @media (max-width: 768px){
   .portfolio-bg{
@@ -1173,4 +1199,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   .portfolio-bg{
     background-image: url(../img/languigesbuild-background3.png);
   }
+}
+
+.page-section-top-width{
+  padding-top: 40px;
+}
+
+.portfolio-padding-top{
+  padding-top: 150px;
 }

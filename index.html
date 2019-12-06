@@ -53,8 +53,8 @@ background +
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        A&Z Development
-        <!-- <img src="/" top-white-logo.svg/> -->
+        <!--A&Z Development-->
+        <img src="img/logo-header.png"/>
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
@@ -66,10 +66,10 @@ background +
             <a class="nav-link js-scroll-trigger" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link js-scroll-trigger" href="#languigesbuild">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#languigesbuild">About</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#customers">Feedback</a>
@@ -96,7 +96,7 @@ background +
   </header>
 
   <!-- Services -->
-  <section class="page-section" id="services">
+  <section class="page-section page-section-top-width" id="services">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -116,7 +116,7 @@ background +
           <h4 class="service-heading">Business Results Approach</h4>
         </div>
         <div class="col-md-4">
-          <img class="service-background-img" src="./img/service_2.png"/>
+          <img class="service-background-img" src="./img/service_3.png"/>
           <div class="service-background-panel"></div>
           <h4 class="service-heading">User Centered Design</h4>
         </div>
@@ -127,7 +127,7 @@ background +
   <div class="card-seperator"></div>
 
   <!--languigesbuild-->
-  <section class="page-section" id="languigesbuild">
+  <section class="page-section page-section-top-width" id="languigesbuild">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -170,28 +170,28 @@ background +
         <div class="col-lg-2 col-sm-4">
           <h2 class="languigesbuild-list-text languigesbuild-list-header">/Backend</h2>
           <ul class="languigesbuild-list languigesbuild-list-text">
-            <li><span class="languigesbuild-list-item">Android</span></li>
-            <li><span class="languigesbuild-list-item">Android</span></li>
-            <li><span class="languigesbuild-list-item">Android</span></li>
-            <li><span class="languigesbuild-list-item">Android</span></li>
+            <li><span class="languigesbuild-list-item">Diango</span></li>
+            <li><span class="languigesbuild-list-item">ASP.NET</span></li>
+            <li><span class="languigesbuild-list-item">ExpressJs</span></li>
+            <li><span class="languigesbuild-list-item">Symfony</span></li>
           </ul>
         </div>
         <div class="col-lg-2 col-sm-4">
             <h2 class="languigesbuild-list-text languigesbuild-list-header">/Frontend</h2>
             <ul class="languigesbuild-list languigesbuild-list-text">
-              <li><span class="languigesbuild-list-item">Android</span></li>
-              <li><span class="languigesbuild-list-item">Android</span></li>
-              <li><span class="languigesbuild-list-item">Android</span></li>
-              <li><span class="languigesbuild-list-item">Android</span></li>
-              <li><span class="languigesbuild-list-item">Android</span></li>
+              <li><span class="languigesbuild-list-item">Angular</span></li>
+              <li><span class="languigesbuild-list-item">Ember</span></li>
+              <li><span class="languigesbuild-list-item">Flutter</span></li>
+              <li><span class="languigesbuild-list-item">React</span></li>
+              <li><span class="languigesbuild-list-item">Vue.js</span></li>
             </ul>
         </div>
         <div class="col-lg-2 col-sm-3">
             <h2 class="languigesbuild-list-text languigesbuild-list-header">/Mobile</h2>
             <ul class="languigesbuild-list languigesbuild-list-text">
-              <li><span class="languigesbuild-list-item">Android</span></li>
-              <li><span class="languigesbuild-list-item">Android</span></li>
-              <li><span class="languigesbuild-list-item">Android</span></li>
+              <li><span class="languigesbuild-list-item">Xamarin Forms</span></li>
+              <li><span class="languigesbuild-list-item">PhoneGap</span></li>
+              <li><span class="languigesbuild-list-item">Ionic</span></li>
             </ul>
         </div>
       </div>
@@ -199,7 +199,7 @@ background +
   </section>
   
   <!--portfolio-->
-  <section class="page-section bg-light portfolio-bg" id="portfolio">
+  <section class="page-section bg-light portfolio-bg portfolio-padding-top" id="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -232,23 +232,47 @@ background +
   <section class="page-section bg-gradient" id="customers">
     <div class="container">
       <div class="row">
-        <div class="col-md-1">
-          <img src="img/white-arrow-left.png">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators" style="bottom: -75px;">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner customers-text">
+            <div class="carousel-item active">
+              <div calss="d-block" style="width: 70%; margin: 0 auto;">
+                <div>What our customers say about us</div>
+                <div class="customers-main">“ We’ve had a great time working with creatively. It's a zipped part of our own team to be honest. It's been a very productive and efficient relationship so far.”</div>
+                <div class="customers-name">Genevieve Rodriquez</div>
+                <div>Product designer</div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div calss="d-block" style="width: 70%; margin: 0 auto;">
+                <div>What our customers say about us</div>
+                <div class="customers-main">“ We’ve had a great time working with creatively. It's a zipped part of our own team to be honest. It's been a very productive and efficient relationship so far.”</div>
+                <div class="customers-name">Genevieve Rodriquez</div>
+                <div>Product designer</div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div calss="d-block" style="width: 70%; margin: 0 auto;">
+                <div>What our customers say about us</div>
+                <div class="customers-main">“ We’ve had a great time working with creatively. It's a zipped part of our own team to be honest. It's been a very productive and efficient relationship so far.”</div>
+                <div class="customers-name">Genevieve Rodriquez</div>
+                <div>Product designer</div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <div class="col-md-10 customers-text">
-          <div>What our customers say about us</div>
-          <div class="customers-main">“ We’ve had a great time working with creatively. It's a zipped part of our own team to be honest. It's been a very productive and efficient relationship so far.”</div>
-          <div class="customers-name">Genevieve Rodriquez</div>
-          <div>Product designer</div>
-        </div>
-        <div class="col-md-1">
-            <img src="img/white-arrow-right.png">
-        </div>
-      </div>
-      <div class="row customers-items">
-        <div class="customer-item-selected"></div>
-        <div class="customer-item"></div>
-        <div class="customer-item"></div>
       </div>
     </div>
   </section>
@@ -263,7 +287,7 @@ background +
           <h2 class="getstarted-text">Let us know more and we`ll sent you an estimate.</h2>  
         </div>
         <div class="col-lg-3 col-md-4 getstarted-button-container">
-          <a href="mailto:email@email.email">
+          <a href="mailto:azdevelopment@contact.com">
             <div class="getstarted-button">
                 Estimate project<img src="img/white-arrow-right.png">
             </div>
@@ -624,27 +648,31 @@ background +
   <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-              <div><a class="js-scroll-trigger footer-item" href="#services">Services</a></div>
-              <div><a class="js-scroll-trigger footer-item" href="#services">Contact</a></div>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-item-block"><a href=""><img src="img/logo.png"></a></div>
+              <div class="footer-item-block"><a class="js-scroll-trigger footer-item" href="#services">Services</a></div>
+              <div class="footer-item-block"><a class="js-scroll-trigger footer-item" href="#languigesbuild">About</a></div>
+              <div class="footer-item-block"><a class="js-scroll-trigger footer-item" href="#portfolio">Portfolio</a></div>
+              <div class="footer-item-block"><a class="js-scroll-trigger footer-item" href="#customers">Feedback</a></div>
+              <div class="footer-item-block"><a class="js-scroll-trigger footer-item" href="#getstarted">Contact</a></div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-3 col-md-6 footer-mobile-margin">
                 <div class="footer-item">+0880 123 345 743</div>
-                <div class="footer-item">537 Oak Valley Street<br/>Stow, OH 44224</div>
+                <div class="footer-item footer-mobile-margin">537 Oak Valley Street<br/>Stow, OH 44224</div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-3 col-md-6 footer-mobile-margin">
                 <div><a class="footer-item" href="mailto:azdevelopment@contact.com">azdevelopment@contact.com</a></div>
+            </div>
+            <div class="col-lg-3 col-md-2 footer-mobile-margin">
+                <div class="row">
+                  <a href="" class="footer-social-block"><div class="footer-social-item footer-social-up"><img src="img/social-up.png"></div></a>
+                  <a href=""><div class="footer-social-item footer-social-in"><img src="img/social-in.png"></div></a>
+                </div>
             </div>
           </div>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-4 footer-footer">
           <span class="copyright">A&Z Development &copy; 2020</span>
-        </div>
-        <div class="col-md-4">
-          
-        </div>
-        <div class="col-md-4">
-         
         </div>
       </div>
     </div>
@@ -666,11 +694,7 @@ background +
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Sports club management system</h2>
-                <!--<img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">-->
-                <div class="portfolio-phones-modal">
-                  <img class="portfolio-phone1-modal" src="img/phone.png">
-                  <img class="portfolio-phone2-modal" src="img/phone.png">
-                </div>
+                <img class="img-fluid d-block mx-auto" src="img/phone.png" alt="">
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   Close Project</button>
