@@ -140,7 +140,7 @@ img::-moz-selection {
 
 #mainNav {
   background-color: #ffffff;
-  border-bottom: 1px solid #4C9DFF;
+  border-bottom: 1px solid #979797;
 }
 
 #mainNav .navbar-toggler {
@@ -201,7 +201,7 @@ img::-moz-selection {
     padding-top: 0;
     padding-bottom: 0;
     background-color: #ffffff;
-    border-bottom: 1px solid #4C9DFF;
+    border-bottom: 1px solid #979797;
     color: #003856;
   }
   #mainNav.navbar-shrink .navbar-brand {
